@@ -1,0 +1,144 @@
+body {
+  font-size: 16px;
+  color: #666;
+  background-color: #fff;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #7096a9; 
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  margin: 20px 0;
+}
+.navbar-brand h1 {
+  font-family: 'Roboto', serif;
+  color: #fff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 25px;
+}
+#nav-list a {
+  
+  text-align: center;
+}
+#nav-list a:hover {
+  color: #395360;
+  background: #E7E7E7;
+  opacity: .7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #fff;
+}
+.navbar-header button.navbar-toggle {
+  margin: 27px;
+}
+#nav-list {
+    background-color: #dfe8ec;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #afc5cf;
+}
+#nav-list a {
+    background-color: #dfe8ec;
+    text-align: center;
+}
+#nav-list a:hover {
+    background: #fff;
+    opacity: .7;
+}
+/* END HEADER */
+
+
+/* HOME PAGE */
+.menu-item {
+  width: 100%;
+  height: auto;
+  background-color: #7096a9;
+}
+.menu-item h3 {
+  padding: 15px;
+  color: #fff;
+  text-align: center;
+}
+.menu-item p {
+  color: #4d4d4d;
+  padding: 5px 35px;
+}
+/* END HOME PAGE */
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    margin-left: 25px;
+  }
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  #nav-list {
+    background-color: #dfe8ec;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #afc5cf;
+  }
+  #nav-list a {
+    background-color: #dfe8ec;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #fff;
+    opacity: .7;
+  }
+  /* End Header */
+
+  /* Home Page */
+  #main {
+    padding: 0 50px;
+  }
+}
+
+
+/********** Super extra small devices  **********/
+@media (max-width: 479px) {
+  
+}
+
+
+
